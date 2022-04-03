@@ -1,0 +1,54 @@
+:root {
+    --header-height: 3.5rem;
+    
+    /*========== Colors ==========*/
+    --first-color: hsl(36, 72%, 48%);
+    --first-color-alt: hsl(36, 72%, 44%);
+    --black-color: hsl(206, 12%, 12%);
+    --card-color: hsl(0, 0%, 90%);
+    --title-color: hsl(206, 12%, 12%);
+    --text-color: hsl(206, 4%, 42%);
+    --text-color-light: hsl(206, 4%, 75%);
+    --body-color: hsl(206, 4%, 97%);
+    --container-color: #fff;
+  
+    /*========== Font and typography ==========*/
+    --body-font: 'Lato', sans-serif;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+  
+    /*========== Font weight ==========*/
+    --font-bold: 700;
+  
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
+
+.dogs__name{
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  margin-bottom: .5rem;
+}
+.Card {
+  border: rgb(0, 0, 0) solid 1px;
+  display: inline-block;
+  margin: 10px ;
+  padding: 8px 20px;
+  background:rgba(141, 23, 19, 0.568);
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
